@@ -1,0 +1,74 @@
+---
+title: "README"
+author: "RuwiniR"
+date: "2 June 2019"
+output: html_document
+---
+
+This code book describes  variables, data and  transformations undertaken to clean the data set.
+
+---
+About Data 
+---
+
+Dataset : dataset has beendownloaded and extracted in the folder called UCI HAR Dataset
+
+
+
+subject - The ID of the test_subject
+
+activity - The type of activity performed when  measurements were taken
+
+
+Activity Labels
+
+
+WALKING (value 1): subject  walking done in test
+WALKING_UPSTAIRS (value 2): subject  walking up a staircase done in the test
+WALKING_DOWNSTAIRS (value 3): subject walking down a staircase in the test
+SITTING (value 4): subject sitting during the test
+STANDING (value 5): subject standing during the test
+LAYING (value 6): subject was laying down during the test
+
+---
+Renaming 
+---
+
+
+"Acc"to "Accelerometer"
+
+"^f" to "Frequency"
+
+"BodyBody" to "Body"
+
+"Gyro" to "Gyroscope"
+
+"gravity" to  "Gravity"
+
+"Mag" to "Magnitude"
+
+"-std()" to "STD"
+
+"^t" to "Time"
+
+"tBody" to "TimeBody"
+
+"-mean()" to "Mean"
+
+"-freq()" to "Frequency"
+
+"angle" to "Angle"
+
+
+---
+Steps
+---
+
+1.Download dataset and read into R.
+2.Assign variables
+3.Merge datasets 
+4.Extract required dataset from the main dataset complied in step 3.
+5.Create the independent dataset from 4 above.
+
+
+

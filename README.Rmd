@@ -1,0 +1,16 @@
+---
+title: "README"
+author: "RuwiniR"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Files Included :
+
+1. CodeBook.md a  describes the dataset,variables and steps taken to transfor data.
+
+2. run_analysis.R is the script generated for  data preparation 
+
+3. FinalTidyDataSet.txt is the final data set prepared as an output of the project.
